@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Desafios de Conhecimento</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='style.css') }}">
+    <!-- Adicionando Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen bg-gray-100 text-gray-900 font-sans">
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-bold">Bem-vindo à Plataforma de Desafios de Conhecimento</h1>
+        </div>
+    </header>
+    <main class="flex-grow container mx-auto my-8 p-4">
+        <section class="bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-2xl font-semibold mb-4">O que você pode fazer?</h2>
+            <ul class="list-disc list-inside space-y-2">
+                <li>Participar de desafios de conhecimento</li>
+                <li>Receber feedback social</li>
+                <li>Ganhar pontos e ver seu desempenho</li>
+                <li>Desbloquear conquistas e badges</li>
+                <li>Adaptar desafios com base em seus interesses</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white py-4 mt-auto">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Plataforma de Desafios de Conhecimento</p>
+        </div>
+    </footer>
+</body>
+</html>
